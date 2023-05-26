@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BuyPC(failed)">
+    <classes>
+      <class name="testCases.BuyPcTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="buyCustomPcWithLog"/>
+          <include name="buyCustomPcWithReg"/>
+          <include name="buyfirstPcTestWithLog"/>
+          <include name="setUp"/>
+          <include name="buyfirstPcTestWithReg"/>
+          <include name="buyCustomPcAndVerifyRam"/>
+        </methods>
+      </class> <!-- testCases.BuyPcTest -->
+    </classes>
+  </test> <!-- BuyPC(failed) -->
+</suite> <!-- Failed suite [Suite] -->
